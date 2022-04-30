@@ -37,7 +37,7 @@ $(document).ready(function(){
             if (this.readyState === 4) {
                 // console.log("Body", this.responseText);
                 let response = this.responseText;
-                let answer = JSON.stringify(response);
+                let answer = JSON.stringify(response.features.geometry.coordinates);
                 console.log(answer);
                 //console.log("answer", JSON.stringify(response));
                 // console.log(answer.split('"bbox": [').pop().split("]")[2]);
