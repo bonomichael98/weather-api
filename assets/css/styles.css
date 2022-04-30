@@ -1,0 +1,44 @@
+* {
+    background-color: grey;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+}
+
+.bordered {
+    border: 2px solid black;
+}
+
+.white-text {
+    color: white;
+}
+
+.center-vert {
+    align-items:center;
+}
+
+.drinks-bg {
+    border: 2px solid black;
+    background-color: #525252;
+    margin: 7.6%;
+    height: 320px;
+}
+
+.drink-text {
+    text-align: center;
+}
+
+.directions {
+    margin: auto;
+    padding-top: 30px;
+    height:200px;
+    width:85%;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+}
