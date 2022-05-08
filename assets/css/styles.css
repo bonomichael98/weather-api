@@ -42,3 +42,8 @@
     font:16px/26px Georgia, Garamond, Serif;
     overflow:auto;
 }
+
+#weather-conditions{
+    height: 35px;
+    border: 5px black solid;
+}
