@@ -72,7 +72,7 @@ $(document).ready(function () {
                 let uvIndex = data.current.uvi;
                 console.log(humidity)
                 temperatureText.innerHTML = humidity;
-                humidityText.innerHTML = temperature;
+                humidityText.innerHTML = temperature + '°F';
                 windSpeedText.innerHTML = windSpeed;
                 uvIndexText.innerHTML = uvIndex;
 
